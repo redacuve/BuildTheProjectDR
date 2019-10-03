@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+.paragraphs {
+    text-align: justify;
+}
+form {
+    max-width: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
