@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -21,7 +27,250 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
-    <h1>Hello World, we are software developers! </h1>
+    <script src="js/index.js"></script>
+    <header id="header">
+      <nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" style="color: white">
+          <img
+            id="header-img"
+            src="https://via.placeholder.com/30"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          My Product</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#videocontainer">Video</a>
+            <a class="nav-item nav-link" href="#pricing">Pricing</a>
+            <a class="nav-item nav-link" href="#vision">Vision</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MISSION SECTION -->
+    <section id="home">
+      <img id="cover-img" src="https://via.placeholder.com/200" alt="company logo" />
+      <h2>Mission</h2>
+      <p class="paragraphs">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        ullamcorper tincidunt porttitor. Nullam auctor eget arcu non malesuada.
+        Fusce vulputate sollicitudin augue ac tincidunt. In convallis pulvinar
+        purus sed elementum. Integer aliquet, neque et iaculis commodo, erat
+        nibh rhoncus enim, at pellentesque arcu nibh vitae velit. Duis at est
+        ornare, iaculis ante non, scelerisque urna. In finibus massa lorem,
+        pharetra semper lacus tincidunt vel. Morbi at suscipit mi, non lacinia
+        turpis. Aenean pulvinar ex eu quam interdum vehicula. Sed in
+        sollicitudin felis. Donec vitae diam mi. Mauris vestibulum neque at
+        purus egestas tristique. Praesent at interdum sapien. Proin posuere
+        luctus nisi quis pellentesque. Mauris tristique ornare tellus, vitae
+        elementum lectus pellentesque id. Morbi hendrerit arcu quam, id
+        scelerisque massa semper in.
+      </p>
+    </section>
+
+    <!-- VISION SECTION -->
+    <section id="vision">
+      <h2>Vision</h2>
+      <p class="paragraphs">
+        Cras lorem massa, pharetra eget quam quis, scelerisque pretium tortor.
+        Aenean ultricies purus vitae vehicula auctor. Ut imperdiet nulla non
+        quam venenatis, vitae efficitur diam pretium. Nunc eget sem convallis,
+        ornare eros at, bibendum orci. Sed bibendum dolor est, id gravida sapien
+        pharetra pharetra. Suspendisse ultricies cursus augue id pharetra. Nam
+        orci odio, varius vel pulvinar ac, ornare in velit. Sed id odio erat.
+        Aliquam cursus mauris et mi sollicitudin, eu fringilla lectus sodales.
+        Sed nibh metus, consequat eu elit finibus, rutrum hendrerit diam.
+        Vivamus nec ligula sit amet libero ultricies aliquam id ut dolor. Mauris
+        ac eleifend erat, quis faucibus orci. Quisque sit amet odio et odio
+        dignissim euismod.
+      </p>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section id="videocontainer">
+      <h3>Company Video</h3>
+      <video
+        id="video"
+        controls
+        src="https://coverr.co/videos/Girl%20Working%20On%20PC--9e465979-eedc-42af-8c1c-8bdcbd24af6f"
+      ></video>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing">
+      <h2>These are our plans</h2>
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $0 <small class="text-muted">/ mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 users included</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-lg btn-block btn-outline-primary"
+            >
+              Sign up for free
+            </button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $15 <small class="text-muted">/ mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">
+              Get started
+            </button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $29 <small class="text-muted">/ mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">
+              Contact us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Receive our newsletter</h2>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="get"
+      >
+        <div class="form-group">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <input id="submit" type="submit" class="btn btn-primary" />
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <section>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img
+              src="https://via.placeholder.com/30"
+              width="30"
+              height="30"
+              class="mb-2"
+              alt=""
+            />
+            <small class="d-block mb-3 text-muted">© 2017-2019</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
